@@ -1,0 +1,236 @@
+name: toku_app
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  audioplayers: ^5.1.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/sounds/numbers/number_one_sound.mp3
+    - assets/sounds/numbers/number_two_sound.mp3
+    - assets/sounds/numbers/number_three_sound.mp3
+    - assets/sounds/numbers/number_four_sound.mp3
+    - assets/sounds/numbers/number_five_sound.mp3
+    - assets/sounds/numbers/number_six_sound.mp3
+    - assets/sounds/numbers/number_seven_sound.mp3
+    - assets/sounds/numbers/number_eight_sound.mp3
+    - assets/images/family_members/family_daughter.png
+    - assets/images/family_members/family_father.png
+    - assets/images/family_members/family_grandfather.png
+    - assets/images/family_members/family_grandmother.png
+    - assets/images/family_members/family_mother.png
+    - assets/images/family_members/family_older_brother.png
+    - assets/images/family_members/family_older_sister.png
+    - assets/images/family_members/family_son.png
+    - assets/images/family_members/family_younger_brother.png
+    - assets/images/family_members/family_younger_sister.png
+    - assets/sounds/family_members/daughter.wav
+    - assets/sounds/family_members/father.wav
+    - assets/sounds/family_members/grandfather.wav
+    - assets/sounds/family_members/grandmother.wav
+    - assets/sounds/family_members/mother.wav
+    - assets/sounds/family_members/olderbother.wav
+    - assets/sounds/family_members/oldersister.wav
+    - assets/sounds/family_members/son.wav
+    - assets/sounds/family_members/youngerbrother.wav
+    - assets/sounds/family_members/youngersister.wav
+    - assets/images/colors/color_black.png
+    - assets/images/colors/color_brown.png
+    - assets/images/colors/color_dusty_yellow.png
+    - assets/images/colors/color_gray.png
+    - assets/images/colors/color_green.png
+    - assets/images/colors/color_red.png
+    - assets/images/colors/color_white.png
+    - assets/images/colors/yellow.png
+    - assets/sounds/colors/black.wav
+    - assets/sounds/colors/brown.wav
+    - assets/sounds/colors/dustyyellow.wav
+    - assets/sounds/colors/gray.wav
+    - assets/sounds/colors/green.wav
+    - assets/sounds/colors/red.wav
+    - assets/sounds/colors/white.wav
+    - assets/sounds/colors/yellow.wav
+    - assets/sounds/phrases/are_you_coming.wav
+    - assets/sounds/phrases/dont_forget_to_subscribe.wav
+    - assets/sounds/phrases/how_are_you_feeling.wav
+    - assets/sounds/phrases/i_love_anime.wav
+    - assets/sounds/phrases/i_love_programming.wav
+    - assets/sounds/phrases/programming_is_easy.wav
+    - assets/sounds/phrases/what_is_your_name.wav
+    - assets/sounds/phrases/where_are_you_going.wav
+    - assets/sounds/phrases/yes_im_coming.wav
+    - assets/sounds/numbers/9.mp3
+    - assets/sounds/numbers/10.mp3
+    - assets/sounds/numbers/11.mp3
+    - assets/sounds/numbers/12.mp3
+    - assets/sounds/numbers/13.mp3
+    - assets/sounds/numbers/14.mp3
+    - assets/sounds/numbers/15.mp3
+    - assets/sounds/numbers/16.mp3
+    - assets/sounds/numbers/17.mp3
+    - assets/sounds/numbers/18.mp3
+    - assets/sounds/numbers/19.mp3
+    - assets/sounds/numbers/20.mp3
+    - assets/sounds/numbers/21.mp3
+    - assets/sounds/numbers/22.mp3
+    - assets/sounds/numbers/23.mp3
+    - assets/sounds/numbers/24.mp3
+    - assets/sounds/numbers/25.mp3
+    - assets/sounds/numbers/26.mp3
+    - assets/sounds/numbers/27.mp3
+    - assets/sounds/numbers/28.mp3
+    - assets/sounds/numbers/29.mp3
+    - assets/sounds/numbers/30.mp3
+    - assets/sounds/numbers/31.mp3
+    - assets/sounds/numbers/32.mp3
+    - assets/sounds/numbers/33.mp3
+    - assets/sounds/numbers/34.mp3
+    - assets/sounds/numbers/35.mp3
+    - assets/sounds/numbers/36.mp3
+    - assets/sounds/numbers/37.mp3
+    - assets/sounds/numbers/38.mp3
+    - assets/sounds/numbers/39.mp3
+    - assets/sounds/numbers/40.mp3
+    - assets/sounds/numbers/41.mp3
+    - assets/sounds/numbers/42.mp3
+    - assets/sounds/numbers/43.mp3
+    - assets/sounds/numbers/44.mp3
+    - assets/sounds/numbers/45.mp3
+    - assets/sounds/numbers/46.mp3
+    - assets/sounds/numbers/47.mp3
+    - assets/sounds/numbers/48.mp3
+    - assets/sounds/numbers/49.mp3
+    - assets/sounds/numbers/50.mp3
+    - assets/sounds/numbers/51.mp3
+    - assets/sounds/numbers/52.mp3
+    - assets/sounds/numbers/53.mp3
+    - assets/sounds/numbers/54.mp3
+    - assets/sounds/numbers/55.mp3
+    - assets/sounds/numbers/56.mp3
+    - assets/sounds/numbers/57.mp3
+    - assets/sounds/numbers/58.mp3
+    - assets/sounds/numbers/59.mp3
+    - assets/sounds/numbers/60.mp3
+    - assets/sounds/numbers/61.mp3
+    - assets/sounds/numbers/62.mp3
+    - assets/sounds/numbers/63.mp3
+    - assets/sounds/numbers/64.mp3
+    - assets/sounds/numbers/65.mp3
+    - assets/sounds/numbers/66.mp3
+    - assets/sounds/numbers/67.mp3
+    - assets/sounds/numbers/68.mp3
+    - assets/sounds/numbers/69.mp3
+    - assets/sounds/numbers/70.mp3
+    - assets/sounds/numbers/71.mp3
+    - assets/sounds/numbers/72.mp3
+    - assets/sounds/numbers/73.mp3
+    - assets/sounds/numbers/74.mp3
+    - assets/sounds/numbers/75.mp3
+    - assets/sounds/numbers/76.mp3
+    - assets/sounds/numbers/77.mp3
+    - assets/sounds/numbers/78.mp3
+    - assets/sounds/numbers/79.mp3
+    - assets/sounds/numbers/80.mp3
+    - assets/sounds/numbers/81.mp3
+    - assets/sounds/numbers/82.mp3
+    - assets/sounds/numbers/83.mp3
+    - assets/sounds/numbers/84.mp3
+    - assets/sounds/numbers/85.mp3
+    - assets/sounds/numbers/86.mp3
+    - assets/sounds/numbers/87.mp3
+    - assets/sounds/numbers/88.mp3
+    - assets/sounds/numbers/89.mp3
+    - assets/sounds/numbers/90.mp3
+    - assets/sounds/numbers/91.mp3
+    - assets/sounds/numbers/92.mp3
+    - assets/sounds/numbers/93.mp3
+    - assets/sounds/numbers/94.mp3
+    - assets/sounds/numbers/95.mp3
+    - assets/sounds/numbers/96.mp3
+    - assets/sounds/numbers/97.mp3
+    - assets/sounds/numbers/98.mp3
+    - assets/sounds/numbers/99.mp3
+    - assets/sounds/numbers/100.mp3
+
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
